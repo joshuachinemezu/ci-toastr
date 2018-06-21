@@ -6,11 +6,12 @@ A CodeIgniter Library to integrate javascript toastr
 
 Have you ever been in a situation that you need to send timed notifications to your client view, notifications that you want to expire within a certain period of time.
 
-PHP(Codeigniter) allows that feature by flashing messages to the session but in most cases, the issue is to display such sessions in a fashionable and user friendly way. Wooooh I got you on this. XD
+PHP(Codeigniter) allows that feature by flashing messages to the session but in most cases, the issue is to display such messages in a fashionable and user friendly way.
+Wooooh I got you on this. XD
 
 Example Scenario:
 You only just want to display the message with custom colors pertaining to each message
-This library will help you in doing such query in a very easy to use interface.
+This library will help you in runing such query in a very easy to use interface.
 
 ## Requirements
 
@@ -27,7 +28,7 @@ You can then load it like any other library
 
     $this->load->library('toastr');
 
-If you are using composer run
+Or if you are using composer run
 
 composer require joshuachinemezu/ci-toastr
 
@@ -89,19 +90,19 @@ In your controller after a task is completed, you can use any of the codes below
 
 -- for successful message
 
-        $this->flash->success('Your account was created successfully');
+        $this->toastr->success('Your account was created successfully');
 
 -- for info message
 
-        $this->flash->info('Please check your mail to activate account');
+        $this->toastr->info('Please check your mail to activate account');
 
 -- for warning message
 
-        $this->flash->warning('Email is required');
+        $this->toastr->warning('Email is required');
 
 -- for error message
 
-        $this->flash->error('Error in creating account');
+        $this->toastr->error('Error in creating account');
 
 ------- In the controller where you want the session(toastr) message to display, add
 --------the code below:
