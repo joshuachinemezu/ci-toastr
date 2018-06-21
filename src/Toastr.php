@@ -23,7 +23,8 @@ class Toastr
      *  @param string $ftp_password the ftp password
      *
      *  @return array
-     */
+     * PHP Mess Detector is giving a warning because the $CI is too short for variable names but I am leaving it
+     * */
     protected $CI;
 
     /**
@@ -31,6 +32,11 @@ class Toastr
      * Load codeigniter session library for session handling and management
      *
      */
+    /* I need to write a poem at this stage
+     * Twinkle twinkle little stars
+     * ... to be continued xd
+     */
+
     public function __construct()
     {
         $this->CI = &get_instance();
