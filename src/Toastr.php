@@ -6,8 +6,8 @@
  * A codeigniter library that integrates javscript toastr and displays messages flashed
  * to the session
  *
- * @package CodeIgniter
- * @version 0.1.2
+ * @package Toastr
+ * @version 1.0.1
  * @author Joshua Chinemezu <joshuachinemezu@gmail.com>
  * @link https://twitter.com/poeticdev
  */
