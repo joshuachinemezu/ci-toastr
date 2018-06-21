@@ -1,0 +1,24 @@
+{
+    "name": "buonzz/composer-library-template",
+    "description": "Boilerplate package for creating other packages.",
+    "keywords": ["template", "composer", "package"],
+    "license": "DBAD",
+    "authors": [
+        {
+            "name": "Darwin Biler",
+            "email": "buonzz@gmail.com"
+        }
+    ],
+    "type": "project",
+    "require": {
+		"php": ">=7.1"
+    },
+    "require-dev": {
+		"phpunit/phpunit": "6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Buonzz\\Template\\": "src/"
+        }
+    }
+}
