@@ -27,6 +27,10 @@ You can then load it like any other library
 
     $this->load->library('toastr');
 
+If you are using composer run
+
+composer require joshuachinemezu/ci-toastr
+
 Create a file in your application/views folder and name it "alert.php". Paste the following code in it.
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
