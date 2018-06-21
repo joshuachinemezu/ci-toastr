@@ -28,7 +28,7 @@ class Toastr
     protected $CI;
 
     /**
-     * Manage __construct, create an of the codeigniter global object
+     * Manage __construct, create an instance of the codeigniter global object
      * Load codeigniter session library for session handling and management
      *
      */
