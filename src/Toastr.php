@@ -6,10 +6,10 @@
  * A codeigniter library that integrates javscript toastr and displays messages flashed
  * to the session
  *
- * @package Toastr
- * @version 1.0.1
+ * @package  CodeigniterToastr
+ * @version 0.0.1
  * @author Joshua Chinemezu <joshuachinemezu@gmail.com>
- * @link https://twitter.com/poeticdev
+ * @link https://twitter.com/joshuachinemezu
  */
 class Toastr
 {
@@ -19,8 +19,6 @@ class Toastr
      *
      *
      *  @param string $CI Create an instance of Codeigniter global
-     *  @param string $ftp_username the ftp username
-     *  @param string $ftp_password the ftp password
      *
      *  @return array
      * PHP Mess Detector is giving a warning because the $CI is too short for variable names but I am leaving it
